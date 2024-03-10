@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=5, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Modals</title>
+</head>
+
+<body>
+    <div class="container">
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Open</button>
+        <!-- You can use the fade option in the modal to add some form of animation to the opening and closing of the modal -->
+        <div class="modal fade modal-dismissible" id="modal">
+            <!-- You can use the scrollable and centered on the modal dialog for better styling -->
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1>Header</h1>
+                        <button class="btn-close" aria-label="close" data-bs-dismiss="modal"
+                            data-bs-target="#modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo velit, magnam totam
+                        aspernatur accusantium fuga, quibusdam, nam tempore eos iusto necessitatibus architecto sed
+                        commodi debitis! Deserunt omnis officiis quam laborum incidunt est consectetur provident commodi
+                        quia doloremque veritatis tempore, eligendi sunt voluptates quaerat maxime voluptatum
+                        laudantium, quasi dolor unde consequatur neque culpa. Temporibus praesentium ducimus laboriosam,
+                        ab similique repudiandae suscipit eaque dicta omnis aut pariatur magnam ad placeat voluptas quis
+                        deleniti vero nihil perferendis sed. Veniam, debitis ut. Veniam dolorum adipisci dolorem
+                        dolores. Culpa deleniti quibusdam impedit similique deserunt optio recusandae nam maxime
+                        voluptas magnam quia, laborum facilis itaque nesciunt, at provident iste nemo eos? Magnam est
+                        beatae vel natus quo cupiditate neque aut omnis temporibus deserunt ipsum, ad ullam, voluptas
+                        maxime possimus quod distinctio mollitia qui esse voluptatum error. Laboriosam illo nemo vel
+                        corporis, possimus iure reiciendis dolor. Sed eos esse magni officiis vel. Aperiam debitis illo
+                        optio quibusdam, magnam nobis fugiat aut animi incidunt ad velit esse ut ea, quia sint aliquid
+                        recusandae in possimus. Dolorem sunt qui eius impedit laborum illum beatae tempore quaerat optio
+                        iusto. Perspiciatis aut nam reiciendis natus. Error sunt, aspernatur laboriosam facilis veniam
+                        reiciendis laborum quod eveniet modi quibusdam dolore nihil numquam quas unde maiores
+                        consectetur eos nemo ipsum fugiat ullam natus assumenda omnis odit facere! Unde, suscipit
+                        placeat ipsam sit corporis, dolores voluptatem quia molestias nisi quidem rem voluptates?
+                        Quidem, porro quibusdam! Natus tenetur sed ut facere doloremque possimus perspiciatis soluta,
+                        dolore repellat libero odio omnis tempore consectetur sint doloribus aliquam! Sapiente odit quis
+                        distinctio cupiditate provident eveniet, explicabo tempore quae? Odio ab nostrum culpa
+                        accusantium ipsam deleniti tempore, in ea fuga et sequi blanditiis vitae veritatis aut omnis?
+                        Quos, vel delectus hic tempore vitae aperiam ut placeat autem laborum, quasi veniam temporibus
+                        officia eveniet assumenda laudantium. Quasi sunt accusamus esse saepe.
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-primary" data-bs-dismiss="modal"
+                            data-bs-target="#modal">Close</button></div>
+                </div>
+            </div>
+
+        </div>
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target=".row" aria-expanded="false" aria-controls="row">Toggle</button>
+        <div class="row collapse">
+            <div class="col">
+                <div class="box">
+                    <h3>Section 1</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row collapse">
+            <div class="col">
+                <div class="box">
+                    <h3>Section 2</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row collapse">
+            <div class="col">
+                <div class="box">
+                    <h3>Section 3</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
