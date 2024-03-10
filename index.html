@@ -149,7 +149,7 @@
                 <input type="number" class="form-control" id="name" />
                 <div class="input-group-text">.00</div>
                 <input type="number" class="form-control" id="name" />
-                
+
                 <button class="btn btn-primary">+</button>
                 <div class="invalid-feedback">Incorrect input</div>
                 <div class="valid-feedback">Correct input</div>
@@ -177,16 +177,20 @@
         </button>
 
         <!-- You can use a button group to style several buttons -->
-        <div class="btn-group btn-group-vertical">
+        <div class="btn-group btn-group-horizontal">
             <button>text</button>
             <button>text</button>
             <button>text</button>
             <button>text</button>
             <button>text</button>
         </div>
+        <div class="alert alert-danger alert-dismissible" role="alert">
+         <h1>Alert</h1>
+         <button class="btn-close" aria-label="close" data-bs-dismiss="alert"></button>
+        </div>
     </div>
 </body>
-    <!-- Be sure to add the novalidate argument to the form tag to make this script work -->
+<!-- Be sure to add the novalidate argument to the form tag to make this script work -->
 
 <script>
     const form = document.querySelector("form");
