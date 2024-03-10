@@ -119,7 +119,7 @@
         </div>
     </div>
     <div class="container">
-        <form action="">
+        <form novalidate>
             <label for="email" class="form-label">Email</label>
             <input type="email" class="form-control" placeholder="example@email.com">
             <!-- For smaller input text -->
@@ -161,6 +161,8 @@
         </form>
     </div>
 </body>
+    <!-- Be sure to add the novalidate argument to the form tag to make this script work -->
+
 <script>
     const form = document.querySelector("form");
     form.addEventListener('submit', e => {
